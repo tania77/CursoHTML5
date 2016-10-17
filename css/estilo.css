@@ -1,0 +1,14 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  border-radius: 20%;
+}
+.div1 {
+  background: light-blue;
+  height: 100px;
+  width: 100px;
+}
