@@ -9,11 +9,11 @@ div {
   border-radius: 20%;
 }
 
-/*.slider {
+.slider {
   max-width: 600px;
   margin: auto;
   arrows: false;
-}*/
+}
 .ba-slider {
   width: 480px;
   margin: auto;
