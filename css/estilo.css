@@ -14,3 +14,8 @@ div {
   margin: auto;
   arrows: false;
 }
+.ba-slider {
+  width: 640px;
+  margin: auto;
+  border: 5px solid #000;
+}
