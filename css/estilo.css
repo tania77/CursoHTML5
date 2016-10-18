@@ -16,4 +16,5 @@ div {
 .slider {
   max-width: 600px;
   margin: auto;
+  arrows: false;
 }
