@@ -8,11 +8,7 @@ html {
 div {
   border-radius: 20%;
 }
-.div1 {
-  background: blue;
-  height: 100px;
-  width: 100px;
-}
+
 .slider {
   max-width: 600px;
   margin: auto;
