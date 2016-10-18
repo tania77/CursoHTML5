@@ -13,3 +13,7 @@ div {
   height: 100px;
   width: 100px;
 }
+.slider {
+  max-width: 600px;
+  margin: auto;
+}
