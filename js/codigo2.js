@@ -12,7 +12,7 @@ $(document).ready(function() {
     create: function(input) {
       return {
         value: input,
-        text: input,
+        text: input
       }
     }
   });
