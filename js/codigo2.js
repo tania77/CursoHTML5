@@ -6,7 +6,7 @@ $(document).ready(function() {
   new Awesomplete(input, {
     list: ["Ada", "Java", "Javascript", "Brainfuck", "LOLCODE", "Node.js", "Ruby on Rails"]
   });
-  $('.input-tags').selectize({
+  $('#input-tags').selectize({
     delimiter: ',',
     persist: false,
     create: function(input) {
