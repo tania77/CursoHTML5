@@ -18,6 +18,7 @@ $(document).ready(function() {
   });
 
   $('.editor').trumbowyg({
+    lang: 'es',
     svgPath: 'icons/icons.svg'
   });
   $('.editor').trumbowyg('html');
