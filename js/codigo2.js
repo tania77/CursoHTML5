@@ -28,3 +28,10 @@ function mensaje() {
 
   alert($('.editor').trumbowyg('html'));
 }
+
+var waypoint = new Waypoint({
+  element: document.getElementById('tres'),
+  handler: function(direction) {
+    alert("Has llegado!");
+  }
+});
