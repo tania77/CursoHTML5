@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
   $('.cookie-message').cookieBar({
     closeButton: '.close'
   });
@@ -27,7 +27,7 @@ $(document).ready(function() {
 function mensaje() {
 
   alert($('.editor').trumbowyg('html'));
-}
+}*/
 
 var waypoint = new Waypoint({
   element: document.getElementById('tres'),
