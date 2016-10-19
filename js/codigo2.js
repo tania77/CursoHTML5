@@ -16,4 +16,9 @@ $(document).ready(function() {
       }
     }
   });
+
+  $('.editor').trumbowyg({
+
+  });
+  
 });
