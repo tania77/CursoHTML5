@@ -1,10 +1,14 @@
-#modal-card {
-  border: 1px solid #888;
-  margin: 2px auto;
-  width: 400px;
-  padding: 25px;
-  box-shadow: 2px 2px 10px RGA(0,0,0, .5);
-  background: #FFF;
-  text-align: center;
-  display: none;
+.cookie-message {
+  width: 200px;
+  top:auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  background: #111 url(http://i.emezeta.com/img/cookiem.png) 245px 45px no-repeat;
+}
+.cookie-message p {
+  color: #FFF;
+}
+.cookie-message a {
+  color: #2AF;
 }

@@ -6,18 +6,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.11/ouibounce.min.js"></script>
     <script src="js/codigo2.js"></script>
     <link rel="stylesheet" href="css/estilo2.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.cookieBar/0.0.1/cookieBar.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cookieBar/0.0.1/jquery.cookieBar.min.js">
+
+    </script>
     <title>Segunda Página</title>
   </head>
   <body>
-    <div id="modal-card">
-      <h4>Ey!</h4>
-      <p>¿Estás seguro?</p>
-      <form action="/send/" method="post">
-        <input type="text" name="email" required placeholder="tuemail@gmail.com">
-        <input type="submit" value="">
-      </form>
-      <a href="#" onclick="document.getElementById('modal-card').remove()">Que siii</a>
-      <div id="modal-background"></div>
+    <div class="cookie-message">
+      <p> Aviso de cookies
+        <a href="#" class="close"></a></p>
     </div>
 
   </body>
