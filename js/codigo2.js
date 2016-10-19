@@ -1,4 +1,4 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
   $('.cookie-message').cookieBar({
     closeButton: '.close'
   });
@@ -21,17 +21,14 @@
     lang: 'es',
     svgPath: 'icons/icons.svg'
   });
-
-
+  var waypoint = new Waypoint({
+    element: document.getElementById('tres'),
+    handler: function(direction) {
+      alert("Has llegado!");
+    }
+  });
 });
 function mensaje() {
 
   alert($('.editor').trumbowyg('html'));
-}*/
-
-var waypoint = new Waypoint({
-  element: document.getElementById('tres'),
-  handler: function(direction) {
-    alert("Has llegado!");
-  }
-});
+}
