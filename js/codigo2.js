@@ -21,6 +21,10 @@ $(document).ready(function() {
     lang: 'es',
     svgPath: 'icons/icons.svg'
   });
-  $('.editor').trumbowyg('html');
+
 
 });
+function mensaje() {
+
+  alert($('.editor').trumbowyg('html'));
+}
