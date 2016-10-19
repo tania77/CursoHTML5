@@ -13,3 +13,12 @@
 .cookie-message a {
   color: #2AF;
 }
+.selectize-control {
+  font-family: 'Open Sans';
+}
+.selectize-input .item {
+  background: linear-gradient(steelblue, blue)!important;
+  boder: 1px solid steelblue!important;
+  color: white!important;
+  border-radius: 5px;
+}
