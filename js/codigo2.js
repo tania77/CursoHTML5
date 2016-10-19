@@ -20,5 +20,6 @@ $(document).ready(function() {
   $('.editor').trumbowyg({
     svgPath: 'icons/icons.svg'
   });
+  $('#trumbowyg').trumbowyg('html');
 
 });
