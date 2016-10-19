@@ -10,9 +10,10 @@ $(document).ready(function() {
     delimiter: ',',
     persist: false,
     create: function(input) {
-      return
-      value: input,
-      text: input,
+      return {
+        value: input,
+        text: input,
+      }
     }
   });
 });
