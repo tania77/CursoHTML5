@@ -6,6 +6,8 @@ $(document).ready( function() {
     }] */
     series: [60, 10, 30, 60]
   };
-  var options = {}
+  var options = {
+    total: 100;
+  }
   new Chartist.Pie('.chart', data, options);
 });
