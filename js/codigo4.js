@@ -1,6 +1,6 @@
 $(document).ready( function() {
   $('#card').flip({
-    axis: 'y',
+    axis: 'x',
     trigger: 'click',
     speed: 500
   });
