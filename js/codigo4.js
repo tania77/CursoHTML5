@@ -4,7 +4,7 @@ $(document).ready( function() {
     series: [{
       data: [2, 4, 6, 8, 10, 12]
     }] */
-    series: [20, 10, 30, 60]
+    series: [60, 10, 30, 60]
   };
   var options = {}
   new Chartist.Pie('.chart', data, options);
