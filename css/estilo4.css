@@ -1,3 +1,12 @@
+table {
+  border:1px solid #444;
+}
+
+table th, table td {
+  padding:4px 12px;
+  font-family:'Exo 2';
+  font-size:24px;
+}
 table th.sort-up::after {
  content:" ";
 }
