@@ -1,4 +1,7 @@
-.chart {
-  width: 600px;
-  height: 400px;
+table th.sort-up::after {
+ content:" ";
+}
+/* Orden descendente */
+table th.sort-down::after {
+ content:" ";
 }
