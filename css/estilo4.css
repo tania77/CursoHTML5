@@ -14,3 +14,11 @@ table th.sort-up::after {
 table th.sort-down::after {
  content:" ";
 }
+table th {
+  background:#444;
+  color:#FFF;
+}
+
+table td {
+  color:#333;
+}
