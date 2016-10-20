@@ -6,5 +6,5 @@ $(document).ready( function() {
     }]
   };
   var options = {}
-  new chartist.Line('.chart', data, options);
+  new Chartist.Line('.chart', data, options);
 });
